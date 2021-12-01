@@ -722,3 +722,16 @@ ul {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* стилизация формы на модальном окне */
+.client-form {
+  padding: 40px;
+  text-align: center;
+}
+.client-form .title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  color: #212121;
+}

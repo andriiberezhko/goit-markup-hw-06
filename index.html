@@ -439,9 +439,9 @@
                 <div class="label-form">
                     <input type="email" name="email" placeholder="E-mail" id="subscribe">
                     <button type="submit" class="button">Подписаться</button>
-                
+            
                 </div>
-                </form>
+            </form>
         
         </div>
     </footer>
@@ -453,8 +453,40 @@
                     <use href="././images/icons.svg#icon-close"></use>
                 </svg>
             </button>
+
+            <!-- форма в модалке -->
+            <form name="client-data" class="client-form">
+                <h2 class="title">Оставьте свои данные, мы вам перезвоним</h2>
+
+                <div>
+                    <label for="username" class="label">Имя</label>
+                    <input type="text" name="username" id="username" class="input">
+                    
+                    <label for="usertelephone" class="label">Телефон</label>
+                    <input type="tel" name="usertelephone" id="usertelephone" class="input">
+                    
+                    <label for="usermail" class="label">Почта</label>
+                    <input type="email" name="usermail" id="usermail" class="input">
+                    
+                    <label for="text" class="label">Комментарий</label>
+                    <textarea name="feedback" id="text" rows="5" placeholder="Введите текст" class="input"></textarea>
+                </div>
+                
+                <input type="checkbox" name="checkbox" id="check">
+                <label for="check">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label>
+                    
+                    
+                
+                <button type="submit">Отправить</button>
+
+
+            </form>
+
+
+
         </div>
     </div>
+    
     <script src="./js/modal.js"></script>
     
     
