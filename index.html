@@ -457,32 +457,46 @@
             <!-- форма в модалке -->
             <form name="client-data" class="client-form">
                 <h2 class="title">Оставьте свои данные, мы вам перезвоним</h2>
-
-                <div>
-                    <label for="username" class="label">Имя</label>
-                    <input type="text" name="username" id="username" class="input">
-                    
-                    <label for="usertelephone" class="label">Телефон</label>
-                    <input type="tel" name="usertelephone" id="usertelephone" class="input">
-                    
-                    <label for="usermail" class="label">Почта</label>
-                    <input type="email" name="usermail" id="usermail" class="input">
-                    
-                    <label for="text" class="label">Комментарий</label>
+            
+                <div class="form-field">
+                    <label for="username" class="form-label">Имя</label>
+                    <input type="text" name="username" id="username" class="input" placeholder=" ">
+                    <svg class="icon-form" width="18px" height="18px">
+                        <use href="././images/icons.svg#icon-person"></use>
+                    </svg>
+                </div>
+            
+                <div class="form-field">
+                    <label for="usertelephone" class="form-label">Телефон</label>
+                    <input type="tel" name="usertelephone" id="usertelephone" class="input" placeholder=" ">
+                    <svg class="icon-form" width="18px" height="18px">
+                        <use href="././images/icons.svg#icon-phone"></use>
+                    </svg>
+                </div>
+            
+                <div class="form-field">
+                    <label for="usermail" class="form-label">Почта</label>
+                    <input type="email" name="usermail" id="usermail" class="input" placeholder=" ">
+                    <svg class="icon-form" width="18px" height="18px">
+                        <use href="././images/icons.svg#icon-email"></use>
+                    </svg>
+                </div>
+            
+                <div class="form-field">
+                    <label for="text" class="form-label">Комментарий</label>
                     <textarea name="feedback" id="text" rows="5" placeholder="Введите текст" class="input"></textarea>
                 </div>
-                
-                <input type="checkbox" name="checkbox" id="check">
-                <label for="check">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label>
-                    
-                    
-                
-                <button type="submit">Отправить</button>
-
-
+            
+            
+                <label class="checkbox">
+                    <input type="checkbox" name="checkbox" class="check-input">
+                    <span class="icon-check"></span>
+                    Соглашаюсь с рассылкой и принимаю &nbsp <a href="#"> Условия договора</a>
+                </label>
+          
+                <button type="submit" class="button-form">Отправить</button>
+           
             </form>
-
-
 
         </div>
     </div>
